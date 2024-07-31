@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import {GlobalStyles} from './styles/GlobalStyles.js'
+import GlobalStyles from './styles/GlobalStyles.js'
 import Home from './pages/Home/index.jsx'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -8,4 +8,4 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <GlobalStyles />
     <Home />
   </React.StrictMode>,
-)
+);
