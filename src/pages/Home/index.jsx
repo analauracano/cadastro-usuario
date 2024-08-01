@@ -1,5 +1,5 @@
 import { useRef } from 'react'
-import api from '../../services/api'
+import api from '../../../services/api'
 
 import { Button, Container, ContainerInputs, Form, Input, InputLabel, Title, TopBackground } from './styles'
 
